@@ -5,5 +5,5 @@ import com.example.spring_boot_jwt_tnh.entity.User;
 
 public interface UserService {
     User createUser(User user);
-
+    UserPrincipal findByUsername(String username);
 }
